@@ -15,10 +15,11 @@ group :development, :test do
 end
 
 group :development do
-	gem 'devise', '~> 4.1', '>= 4.1.1'
   gem 'web-console', '~> 2.0'
   gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
   gem 'devise', '~> 4.1', '>= 4.1.1'
+  gem 'paperclip', '~> 4.3', '>= 4.3.6'
+  gem 'simple_form', '~> 3.2', '>= 3.2.1'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
